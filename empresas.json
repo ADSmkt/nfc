@@ -52,5 +52,17 @@
             "rotulo": "Drive",
             "conteudo": "http://drive.google.com/"
         }
+    ],
+    "zeltda":[
+        {
+            "tipo": "site",
+            "rotulo": "Site Ze",
+            "conteudo": "https://www.google.com.br/"
+        },
+        {
+            "tipo": "email",
+            "rotulo": "E-mail do Ze",
+            "conteudo": "ze@empresa.com"
+        }
     ]
 }
