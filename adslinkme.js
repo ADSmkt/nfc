@@ -11,9 +11,9 @@ fetch('./empresas.json')
         if (empresa != '') {
             let logo = document.getElementById('logoImg');
             logo.src = 'logos/' + empresa + '.png';
-			document.body.style.backgroundColor = json[empresa.corfundo];
-            let links = json[empresa.links];
-            links.forEach(e => {
+			document.body.style.backgroundColor = json[empresa].corfundo;
+            let links = json[empresa].links;
+            links.forEach((e,i) => {
                 let elementoLabel = document.createElement('label');
                 elementoLabel.innerHTML = e.rotulo;
                 let classElementoI = '';
@@ -38,6 +38,9 @@ fetch('./empresas.json')
                     classElementoI = 'fa fa-youtube';
                 } else if (e.tipo == 'contato') {
                     classElementoI = 'fa fa-user';
+                    conteudoHref = e.conteudo;
+                } else if (e.tipo == 'linkedin') {
+                    classElementoI = 'fa fa-linkedin';
                     conteudoHref = e.conteudo;
                 }
                 let elementoI = document.createElement('i');

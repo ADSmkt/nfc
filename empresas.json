@@ -1,6 +1,6 @@
-{
+{	
     "ads": {
-		"corfundo": yellow,
+		"corfundo": "#022b46",
 		"links": [
 			{
 				"tipo": "site",
@@ -36,6 +36,11 @@
 				"tipo": "contato",
 				"rotulo": "Contato",
 				"conteudo": "https://drive.google.com/file/d/1ntegC5TY9VbmPQatbYMAAeK5WSQs_3Xg/view?usp=sharing"
+			},
+			{
+				"tipo": "linkedin",
+				"rotulo": "LinkedIn",
+				"conteudo": "https://www.linkedin.com/in/ads-marketing-digital-4724182ba/"
 			}
 		]
 	}

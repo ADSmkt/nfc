@@ -39,6 +39,11 @@ body {
   background:linear-gradient(45deg,#452f83,#2e1d5a);
 }
 
+.linkedin {
+  background:linear-gradient(45deg,#0A66C2,#8598ec);
+}
+
+
 @keyframes movimento {
   from {
     margin-left:100px;
@@ -58,8 +63,8 @@ a {
 }
 
 a:hover {
-  margin:0.7em;
-}
+  opacity:0.8;
+} 
 
 #app {
   display:flex;
